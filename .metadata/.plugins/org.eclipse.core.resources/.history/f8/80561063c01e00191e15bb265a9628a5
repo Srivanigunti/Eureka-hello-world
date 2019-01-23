@@ -1,0 +1,4 @@
+server.port=9090
+spring.application.name=website
+spring.mvc.view.prefix=/WBF-INF/jsp/
+spring.mvc.view.suffix=.jsp

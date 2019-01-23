@@ -1,0 +1,17 @@
+package com.cg.ureka.website.urekawebsite;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+@EnableDiscoveryClient
+@SpringBootApplication
+public class UrekawebsiteApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UrekawebsiteApplication.class, args);
+	}
+
+	@Bean
+}
+

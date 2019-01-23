@@ -1,0 +1,5 @@
+package com.cg.ureka.urekaclient.resource;
+
+public class EurekaClientResource {
+
+}

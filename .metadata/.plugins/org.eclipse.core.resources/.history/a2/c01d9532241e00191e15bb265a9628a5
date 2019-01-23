@@ -1,0 +1,14 @@
+package com.cg.ureka.urekaclient;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UrekaclientApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UrekaclientApplication.class, args);
+	}
+
+}
+

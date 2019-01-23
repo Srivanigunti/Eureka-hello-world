@@ -1,0 +1,18 @@
+package com.cg.ureka.website.urekawebsite.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpMethod;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.client.RestTemplate;
+
+@Controller
+public class WebsiteController {
+
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	String message =restTemplate.exchange("http://hello-world/hello", HttpMethod.GET,null,new ParameterizedTypeReference<String>(){}).getbody();
+	
+
+}

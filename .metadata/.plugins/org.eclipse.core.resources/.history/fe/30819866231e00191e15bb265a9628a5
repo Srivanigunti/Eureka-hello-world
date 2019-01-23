@@ -1,0 +1,14 @@
+package com.cg.ureka.urekaservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UrekaserviceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UrekaserviceApplication.class, args);
+	}
+
+}
+

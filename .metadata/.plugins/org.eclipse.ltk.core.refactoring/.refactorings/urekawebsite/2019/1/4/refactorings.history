@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;urekawebsite/src/main/website&apos; to &apos;webapp&apos;" description="Rename resource &apos;website&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/website" name="webapp" stamp="1548217057409" updateReferences="true"/>
+</session>
